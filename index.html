@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.538">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Nabila Zulfa Ramadhani (220204172)">
+<meta name="dcterms.date" content="2024-01-24">
+
+<title>Analisis Pengaruh Tingkat Pendidikan Terhadap Tingkat Kemiskinan Di Provinsi Jawa Barat Tahun 2010-2018</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Analisis Pengaruh Tingkat Pendidikan Terhadap Tingkat Kemiskinan Di Provinsi Jawa Barat Tahun 2010-2018</h1>
+<p class="subtitle lead">Metode Penelitian Politeknik APP Jakarta</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Nabila Zulfa Ramadhani (220204172) </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 24, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="poltekapp.jpg" class="img-fluid figure-img"></p>
+<figcaption>Politeknik APP Jakarta</figcaption>
+</figure>
+</div>
+<section id="pendahuluan" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="pendahuluan"><span class="header-section-number">1</span> PENDAHULUAN</h2>
+<section id="latar-belakang" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="latar-belakang"><span class="header-section-number">1.1</span> Latar Belakang</h3>
+<p>Indonesia sebagai negara berkembang, menghadapi tantangan besar terkait isu kemiskinan yang menjadi fokus utama dalam upaya pembangunannya. Beragam pandangan mengenai kemiskinan menunjukkan bahwa fenomena ini memiliki dimensi yang kompleks, membuat pengukurannya menjadi tugas yang tidak mudah. Meskipun demikian, pengukuran kemiskinan sangat penting sebagai gambaran dan dasar untuk merumuskan kebijakan penanggulangan kemiskinan (Bank, 2020).</p>
+<p>Kemiskinan telah menjadi tantangan yang berkelanjutan sepanjang sejarah manusia, memengaruhi berbagai aspek kehidupan masyarakat. Bagi mereka yang termasuk dalam golongan miskin, kemiskinan menjadi realitas yang nyata dalam kehidupan sehari-hari, mempengaruhi kemampuan mereka untuk menjalani hidup dengan standar yang layak (Suliswanto, 2010). Kemiskinan didefinisikan sebagai kondisi di mana individu atau kelompok, tanpa memandang jenis kelamin, tidak memiliki hak dasar untuk menjaga dan meningkatkan kehidupan yang layak. Menurut Rusdarti &amp; Sebayang (2013), kemiskinan membatasi kemampuan individu untuk tetap sehat dan mengembangkan keterampilannya, menjadikannya sebagai masalah yang langgeng dalam pembangunan.</p>
+<p>Kemiskinan merupakan masalah multidimensi yang terkait dengan dimensi sosial, ekonomi, budaya, politik, spasial, dan temporal. Kemiskinan didefinisikan sebagai kondisi di mana individu atau kelompok, baik laki-laki maupun perempuan, tidak memiliki hak dasar untuk menjaga dan meningkatkan kehidupan yang layak (Alcock, Haux, May, &amp; Wright, 2016). Dalam konteks Indonesia, salah satu provinsi yang menghadapi peningkatan tingkat kemiskinan adalah Jawa Barat, yang masuk dalam lima provinsi dengan tingkat kemiskinan tertinggi pada tahun 2020. Peningkatan jumlah pengangguran di Jawa Barat diidentifikasi sebagai penyebab utama meningkatnya tingkat kemiskinan (Sadono, 2010).</p>
+<p>Pengangguran, sebagaimana disebut oleh Todaro &amp; Smith (2011), menyebabkan penurunan pendapatan masyarakat, yang pada akhirnya mengurangi tingkat kemakmuran yang telah dicapai dan menciptakan masalah kemiskinan. Faktor lain yang berkontribusi pada peningkatan tingkat kemiskinan adalah rendahnya tingkat pendidikan. Teori pertumbuhan modern menekankan peran pemerintah, khususnya dalam meningkatkan modal manusia melalui pendidikan, untuk meningkatkan produktivitas dan pertumbuhan ekonomi. Pendidikan dianggap sebagai kunci penggerak pembangunan masa depan, dan pengabaian terhadap pendidikan dapat menyebabkan keruntuhan bangsa (Todaro &amp; Smith, 2011).</p>
+<p>Hubungan antara pendidikan dan kemiskinan sangat signifikan, karena tingkat pendidikan yang lebih tinggi berkontribusi pada peningkatan keterampilan dan, akhirnya, produktivitas kerja yang lebih tinggi (Astrini, Myanti, &amp; Purbadharmaja, 2013). Oleh karena itu, pendidikan perlu mendapatkan perhatian khusus dalam mengatasi ketidakpahaman dan disparitas sosial-ekonomi. Dengan latar belakang ini, artikel ini bertujuan untuk mengkaji lebih dalam pengaruh tingkat pendidikan terhadap tingkat kemiskinan di Provinsi Jawa Barat dari tahun 2010 hingga 2018</p>
+</section>
+<section id="ruang-lingkup" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="ruang-lingkup"><span class="header-section-number">1.2</span> Ruang Lingkup</h3>
+<p>Dalam artikel ini akan diberikan batasan yang akan mencakup tentang tingkat pendidikan berpengaruh terhadap tingkat kemiskinan di provinsi Jawa selama 9 tahun terakhir dan ruang lingkup penelitian ini yang hanya menggunakan data dalam kurun waktu 9 tahun (dari tahun 2010 sampai dengan tahun 2018). Kegiatan pengambilan data diperoleh melalui web Badan Pusat Statistik provinsi Jawa Barat.</p>
+</section>
+<section id="rumusan-masalah" class="level3" data-number="1.3">
+<h3 data-number="1.3" class="anchored" data-anchor-id="rumusan-masalah"><span class="header-section-number">1.3</span> Rumusan Masalah</h3>
+<p>Berdasarkan uraian latar belakang masalah diatas, maka terdapat beberapa indikator yang menjadi rumusan masalah dalam penelitian ini. Adapun rumusan masalah tersebut adalah :</p>
+<ol type="1">
+<li>Apakah tingkat pendiikan berpengaruh terhadap tingkat kemiskinan di provinsi jawa barat?</li>
+</ol>
+</section>
+<section id="tujuan-penelitian" class="level3" data-number="1.4">
+<h3 data-number="1.4" class="anchored" data-anchor-id="tujuan-penelitian"><span class="header-section-number">1.4</span> Tujuan Penelitian</h3>
+<p>Berdasarkan uraian latar belakang, maka dapat disimpulkan Penelitian ini bertujuan untuk mengetahui apakah tingkat pendidikan di provinsi Jawa Barat memiliki pengaruh terhadap tingkat kemiskinan di Jawa Barat.</p>
+</section>
+<section id="manfaat-penelitian" class="level3" data-number="1.5">
+<h3 data-number="1.5" class="anchored" data-anchor-id="manfaat-penelitian"><span class="header-section-number">1.5</span> Manfaat Penelitian</h3>
+<p>Manfaat dari artikel ini yaitu agar dapat menyebarkan pengetahuan dan informasi terkini dan memberikan rekomendasi untuk langkah-langkah lanjutan dalam meningkatkan tingkat pendidikan di Provinsi Jawa Barat sebagai strategi efektif untuk mengurangi tingkat kemiskinan. Implementasi kebijakan yang berkelanjutan dan kolaborasi antara pemerintah, sektor swasta, dan masyarakat menjadi kunci dalam menciptakan perubahan positif menuju kesejahteraan yang lebih baik di Provinsi Jawa Barat.</p>
+</section>
+<section id="package" class="level3" data-number="1.6">
+<h3 data-number="1.6" class="anchored" data-anchor-id="package"><span class="header-section-number">1.6</span> Package</h3>
+<p>Packages yang digunakan sebagai berikut:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.4.4     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.0
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(WDI)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="studi-pustaka" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="studi-pustaka"><span class="header-section-number">2</span> STUDI PUSTAKA</h2>
+<section id="kemiskinan" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="kemiskinan"><span class="header-section-number">2.1</span> Kemiskinan</h3>
+<p>Kemiskinan merupakan permasalahan yang senantiasa dihadapi oleh manusia. Permasalahan ini sudah ada seiring dengan eksistensi masalah kemanusiaan itu sendiri, dan konsekuensi dari kemiskinan dapat mencakup seluruh aspek kehidupan manusia, meskipun seringkali tidak disadari sebagai masalah oleh individu yang mengalaminya. Bagi mereka yang hidup dalam kondisi miskin, kemiskinan bukanlah sekadar konsep, melainkan realitas yang dapat dirasakan dalam kehidupan sehari-hari. Hal ini diungkapkan oleh Sulistyanto (2010) seperti yang dikutip dalam penelitian Islami (2013).</p>
+<p>Penyebab mendasar dari kemiskinan adalah kurangnya pendapatan dan ketersediaan sarana serta prasarana untuk memenuhi kebutuhan dasar seperti makanan, pakaian, tempat tinggal, layanan kesehatan, dan pendidikan. Salah satu indikator umum yang digunakan untuk mengukur kemiskinan adalah rendahnya pendapatan, karena pendapatan mencerminkan standar kehidupan aktual masyarakat. Standar hidup sebenarnya mencerminkan tingkat kesejahteraan masyarakat, sehingga pendapatan dapat dianggap sebagai indikator tingkat kesejahteraan masyarakat (Mubyarto, 1996). Meskipun demikian, tingkat pendapatan masyarakat tidak akan mencapai hasil maksimal tanpa didukung oleh sumber daya manusia yang berkualitas.Oleh karena itu, peningkatan kualitas sumber daya manusia harus menjadi prioritas utama bagi pemerintah dalam upaya mengatasi kemiskinan. Meningkatkan kualitas sumber daya manusia dapat dicapai melalui peningkatan pendidikan dan kesehatan masyarakat, seperti yang diungkapkan oleh Andriani &amp; Wahyudi (2015).</p>
+</section>
+<section id="pendidikan" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="pendidikan"><span class="header-section-number">2.2</span> Pendidikan</h3>
+<p>Lelgeveld memberikan definisi bahwa pendidikan adalah usaha untuk membimbing, melindungi, dan memberikan bantuan yang tepat kepada anak didiknya, dengan tujuan agar mereka dapat mandiri dalam menjalani hidupnya tanpa bantuan orang lain. Londason Pendidikan menyatakan bahwa bimbingan, pengaruh, dan perlindungan yang diberikan dalam pendidikan harus mengandung nilai-nilai luhur sesuai dengan hakikat dan martabat kemanusiaan. Tujuan akhir pendidikan adalah membantu peserta didik menjadi cukup mampu untuk menjalani kehidupan mereka sendiri.</p>
+<p>Dewey, seorang ahli pendidikan, menyatakan bahwa konsep pendidikan melibatkan pemahaman sebagai proses pengalaman, di mana kehidupan adalah pembelajaran, dan pendidikan berarti membantu pertumbuhan batin tanpa dibatasi oleh usia. Dewey menekankan bahwa kegiatan pendidikan pada dasarnya adalah proses pengalaman yang mengarahkan peserta didik menuju pertumbuhan batin, sehingga mereka dapat eksis di tengah-tengah lingkungan mereka dengan berbagai tantangan dan masalah tanpa selalu bergantung pada orang lain.Kedua pandangan dari Dewey dan Lelgeveld pada dasarnya memiliki tujuan yang sama, yaitu mencapai kemandirian peserta didik. Kemandirian diartikan sebagai kemampuan untuk hidup layak di tengah masyarakat tanpa harus tergantung pada orang lain.</p>
+</section>
+</section>
+<section id="metode-penelitian" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="metode-penelitian"><span class="header-section-number">3</span> METODE PENELITIAN</h2>
+<section id="data" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="data"><span class="header-section-number">3.1</span> Data</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Tahun</th>
+<th>Index Pendidikan</th>
+<th>Persetase Kemiskinan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2010</td>
+<td>54,34</td>
+<td>10,93</td>
+</tr>
+<tr class="even">
+<td>2011</td>
+<td>55,15</td>
+<td>10,57</td>
+</tr>
+<tr class="odd">
+<td>2012</td>
+<td>56,27</td>
+<td>9,88</td>
+</tr>
+<tr class="even">
+<td>2013</td>
+<td>58,08</td>
+<td>9,61</td>
+</tr>
+<tr class="odd">
+<td>2014</td>
+<td>59,26</td>
+<td>9,18</td>
+</tr>
+<tr class="even">
+<td>2015</td>
+<td>59,95</td>
+<td>9,53</td>
+</tr>
+<tr class="odd">
+<td>2016</td>
+<td>60,67</td>
+<td>8,95</td>
+</tr>
+<tr class="even">
+<td>2017</td>
+<td>61,63</td>
+<td>8,71</td>
+</tr>
+<tr class="odd">
+<td>2018</td>
+<td>61,75</td>
+<td>7,45</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>dat<span class="ot">&lt;-</span><span class="fu">read_excel</span>(<span class="st">'data metopel.xlsx'</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data=</span>dat, <span class="fu">aes</span>(<span class="at">x=</span>Pendidikan, <span class="at">y=</span>Kemiskinan))<span class="sc">+</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">color=</span><span class="st">'blue'</span>, <span class="at">size=</span><span class="dv">2</span>)<span class="sc">+</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"Plot Terhadap Tingkat Kemiskinan"</span>,</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">x=</span><span class="st">"Pendidikan"</span>,</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>       <span class="at">y=</span><span class="st">"Kemiskinan"</span>,</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> <span class="st">"Sumber:  Badan Pusat Statistik &amp; Open Data Jabar"</span>) <span class="sc">+</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="metode-analisis" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="metode-analisis"><span class="header-section-number">3.2</span> Metode analisis</h3>
+<p>Metode yang digunakan dalam penelitian ini adalah dengan menggunakan metode kuantitatif dengan pendekatan deskriptif, yang menjelaskan pengaruh variabel penelitian (Sugiyono, 2011). Metode pengumpulan data dalam penelitian ini yaitu dengan menggunakan data time series selama 9 tahun yaitu tahun 2010-2018 dari total keseluruhan Provinsi Jawa Barat, sumber data berupa data-data sekunder yang diambil dari Badan Pusat Statistik Provinsi Jawa Barat. Model analisis yang digunakan adalah analisis regresi linear berganda dan nilai koefisien determinasi. Penggunaan analisis ini bertujuan untuk mengetahui pengaruh antara variabel bebas terhadap variabel terikat.</p>
+</section>
+</section>
+<section id="pembahasan" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="pembahasan"><span class="header-section-number">4</span> PEMBAHASAN</h2>
+<section id="pembahasan-masalah" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="pembahasan-masalah"><span class="header-section-number">4.1</span> Pembahasan masalah</h3>
+<p>Pada bagian ini dapat menampilkan data yang telah berhasil dikumpulkan :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'readxl'</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">read_excel</span>(<span class="st">"data metopel.xlsx"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 9 × 2
+  Pendidikan Kemiskinan
+       &lt;dbl&gt;      &lt;dbl&gt;
+1       54.3      10.9 
+2       55.2      10.6 
+3       56.3       9.88
+4       58.1       9.61
+5       59.3       9.18
+6       60.0       9.53
+7       60.7       8.95
+8       61.6       8.71
+9       61.8       7.45</code></pre>
+</div>
+</div>
+</section>
+<section id="analisis-masalah" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="analisis-masalah"><span class="header-section-number">4.2</span> Analisis masalah</h3>
+<p>Hasil regresinya adalah :</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>dat<span class="ot">&lt;-</span><span class="fu">read_excel</span>(<span class="st">"data metopel.xlsx"</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>reg<span class="ot">&lt;-</span><span class="fu">lm</span>(Kemiskinan<span class="sc">~</span>Pendidikan,<span class="at">data=</span>dat)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(reg)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = Kemiskinan ~ Pendidikan, data = dat)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.88902 -0.01712  0.02090  0.24311  0.57786 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) 29.37238    3.35065   8.766 5.06e-05 ***
+Pendidikan  -0.34062    0.05715  -5.960 0.000565 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 0.4478 on 7 degrees of freedom
+Multiple R-squared:  0.8354,    Adjusted R-squared:  0.8118 
+F-statistic: 35.52 on 1 and 7 DF,  p-value: 0.0005645</code></pre>
+</div>
+</div>
+<p>Hasil di atas adalah hasil perkiraan OLS melalui penerapan model regresi multivariat. Hasil regresi tersebut dimanfaatkan untuk mengidentifikasi korelasi antara variabel dependen dan variabel independen. Variabel dependen yang digunakan adalah tingkat kemiskinan, sedangkan variabel independen yang diobservasi adalah tingkat pendidikan. Ditemukan bahwa setiap peningkatan 1 persen dalam tingkat pendidikan berkontribusi pada penurunan tingkat kemiskinan sebesar -0,34062.</p>
+<p>Penggunaan nilai R² bertujuan untuk mengukur sejauh mana variabel independen memengaruhi variabel dependen. Dari tabel tersebut, nilai R² mencerminkan bahwa tingkat pendidikan memiliki dampak signifikan terhadap tingkat kemiskinan di provinsi Jawa Barat sebesar 0,8354 atau 83,54%. Ini berarti sekitar 83,54% dari variasi tingkat kemiskinan di provinsi tersebut dapat dijelaskan oleh tingkat pendidikan. Sementara itu, sekitar 16,46% sisanya dipengaruhi oleh faktor-faktor lain yang tidak dibahas dalam penelitian ini.</p>
+</section>
+</section>
+<section id="kesimpulan" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="kesimpulan"><span class="header-section-number">5</span> Kesimpulan</h2>
+<p>Berdasarkan hasil penelitian ini, dapat disimpulkan bahwa tingkat pendidikan memiliki dampak yang signifikan terhadap tingkat kemiskinan di provinsi Jawa Barat. Tingkat pendidikan, berperan sebagai variabel independen, memegang peran kunci dalam memengaruhi fluktuasi tingkat kemiskinan di wilayah tersebut. Penelitian ini menunjukkan bahwa proses pendidikan memiliki peran sentral dalam menentukan arah naik atau turunnya tingkat kemiskinan. Oleh karena itu, pemahaman mendalam tentang keterkaitan ini dapat menjadi dasar untuk merancang kebijakan ekonomi yang efektif, terutama dalam mengoptimalkan tingkat pendidikan sebagai elemen kunci dalam upaya menurunkan tingkat kemiskinan.</p>
+</section>
+<section id="referensi" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="referensi"><span class="header-section-number">6</span> Referensi</h2>
+<p>Persentase Penduduk Miskin (Persen), 2010-2018 | Badan Pusat Statistik. (2018). Retrieved 24 January 2024, from https://jabar.bps.go.id/indicator/23/51/1/persentase-penduduk-miskin.html</p>
+<p>Indeks Pendidikan Berdasarkan Provinsi di Indonesia | Open Data Jabar. (2018). Retrieved 24 January 2024, from https://opendata.jabarprov.go.id/id/dataset/indeks-pendidikan-berdasarkan-provinsi-di-indonesia</p>
+<p>Berliani, K. (2021). Pengaruh Tingkat Pengangguran, Tingkat Pendidikan dan Laju Pertumbuhan Penduduk Terhadap Tingkat Kemiskinan Penduduk Provinsi Jawa Barat Tahun 2015-2020. Syntax Literate; Jurnal Ilmiah Indonesia, 6(2), 872.</p>
+<p>Chairunnisa, N. M., &amp; Qintharah, Y. N. (2022). Pengaruh Kesehatan, Tingkat Pendidikan, dan Upah Minimum terhadap Kemiskinan pada Provinsi Jawa Barat Tahun 2019-2020. Jurnal Penelitian Teori dan Terapan Akuntansi (PETA), 7(1), 147-161.</p>
+<p>Suriansyah, A. (2011). Landasan pendidikan. Retrieved 24 January 2024, from https://scholar.google.com/scholar?hl=id&amp;as_sdt=0%2C5&amp;q=pendidikan+menurut+para+ahli&amp;btnG=&amp;oq=PENDIDIKAN+MENURUT#d=gs_cit&amp;t=1705977978087&amp;u=%2Fscholar%3Fq%3Dinfo%3Apwrx06ZVs5oJ%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D3%26hl%3Did</p>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
